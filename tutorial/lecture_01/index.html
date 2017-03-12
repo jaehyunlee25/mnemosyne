@@ -1,0 +1,46 @@
+﻿<html>
+	<head>
+		<title>Rain Drop V.0.1</title>
+		<meta charset="utf-8">
+		<script src="js/global.js"></script>
+		<script src="js/jCommonSE.js"></script>
+		<script>
+			var cf=new jCommon();
+		</script>
+	</head>
+	<body tabindex="1">
+		<h1>Rain Drop <span style="font-size:15px;color:gray;">v.0.1</span></h1>
+		<button id="el_start" style="font-size:20px;">START</button>
+		<div style="font-size:20px;">
+			<b>GOT:</b><span id="el_got"> 0 times</span>
+			<b>MISSED:</b><span id="el_missed"> 0 times</span>
+		</div>
+		<div style="font-size:20px;">
+			<b>SCORE:</b><span id="el_score"> 0 ml</span>
+			<b>Accuracy:</b><span id="el_rate" style="color:red;"> 0 %</span>
+		</div>
+		<div style="font-size:20px;">
+			<b>Accuracy for Recent 50 Drops:</b><span id="el_50" style="color:red;"> 0 %</span>
+		</div>
+		<div style="font-size:20px;">
+			<b>Analogy Hit:</b><span id="el_analogy" style="color:red;"> 0 times</span>
+		</div>
+		<div style="font-size:20px;">
+			<b>Experience Hit:</b><span id="el_experience" style="color:red;"> 0 times</span>
+		</div>
+		<div style="font-size:20px;">
+			<b>Classification Hit:</b><span id="el_classification" style="color:red;"> 0 times</span>
+		</div>
+		<div style="font-size:20px;">
+			<b>Mode:</b><span>Fast</span>
+			<b>Time Elapsed:</b><span id="el_clock"> 0 secs</span>
+		</div>
+		<div style="padding-left:150px;border:1px solid black;width:500px;overflow:hidden;">
+			<div id="board" style="position:relative;width:350px;height:200px;"></div>
+		</div>
+		<h1 id="notif"></h1>
+		<script src="js/rain_drop.js"></script>	
+		<script src="js/mnemosyne.js"></script>
+		<script src="js/index.js"></script>
+	</body>
+</html>
