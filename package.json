@@ -1,0 +1,8 @@
+{
+  "name": "mnemosyne",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:jaehyunlee25/mnemosyne.git",
+  "author": "jae hyun lee <jaehyunlee25@gmail.com>",
+  "license": "MIT"
+}
