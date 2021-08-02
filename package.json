@@ -4,5 +4,13 @@
   "main": "index.js",
   "repository": "git@github.com:jaehyunlee25/mnemosyne.git",
   "author": "jae hyun lee <jaehyunlee25@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "script": {
+    "dev": "next"
+  },
+  "dependencies": {
+    "next": "^2.1.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
 }
